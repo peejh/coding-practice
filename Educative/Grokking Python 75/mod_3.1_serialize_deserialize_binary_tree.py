@@ -10,16 +10,13 @@ def serialize(root):
     res.extend(serialize(root.left))
     res.extend(serialize(root.right))
 
-    # print(res)
     return res
 
 def deserialize(stream):
-    # print(stream)
     root, _ = deserialize_recursive(stream)
     return root
 
 def deserialize_recursive(stream):
-    # print(stream)
     if stream[0] is None:
         return None, stream[1:]
     node = TreeNode(stream[0])

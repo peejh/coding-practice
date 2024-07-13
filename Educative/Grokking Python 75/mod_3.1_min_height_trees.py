@@ -6,14 +6,12 @@ def get_longest_chain(conns, existing_chain, curr_chain):
     curr = curr_chain[-1]
     subchains = []
     for i in conns[curr]:
-        # print(i, subchains, curr_chain)
         if i in curr_chain:
             subchains.append(curr_chain)
         elif i in existing_chain and i not in existing_chain[i]:
             subchains.append([*curr_chain, *existing_chain[i]])
         else:
             subchains.append(get_longest_chain(conns, existing_chain, [*curr_chain, i]))
-    # print(subchains)
 
     longest = []
     for subchain in subchains:
@@ -31,13 +29,11 @@ def min_height_trees(n, edges):
     for e in edges:
         dconns[e[0]].add(e[1])
         dconns[e[1]].add(e[0])
-    # print(dconns)
 
     # find longest chain from a given root
     chains = {}
     for i in range(n):
-        chains[i] = get_longest_chain(dconns, chains, [i])
-    # print(chains)        
+        chains[i] = get_longest_chain(dconns, chains, [i])     
 
     # find roots that has min longest chain
     roots = []
@@ -62,7 +58,6 @@ def min_height_trees_better(n, edges):
     for e in edges:
         dconns[e[0]].add(e[1])
         dconns[e[1]].add(e[0])
-    # print(dconns)
 
     # prune leaf nodes by layer
     while len(dconns) > 2:

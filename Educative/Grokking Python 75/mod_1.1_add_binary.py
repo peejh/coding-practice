@@ -15,7 +15,6 @@ def add_binary(str1, str2):
         curr += 1 if str2[i] == '1' else 0
         carry = 1 if curr > 1 else 0
         result += str(curr % 2)
-        # print(carry, result)
 
     result += str(carry) if carry == 1 else ''
 
