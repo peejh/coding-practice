@@ -9,7 +9,7 @@ class MyQueue(object):
         # in official solution, stack2 declared here
 
     def push(self, x):
-        if self.stack.is_empty(): # in official solution, this is not needed; it's redundant
+        if self.stack.is_empty(): # in official solution, this is redundant
             self.stack.push(x)
         else:
             stack2 = Stack() # in official solution, this is declared as an object variable

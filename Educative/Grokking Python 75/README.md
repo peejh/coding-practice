@@ -12,8 +12,8 @@
 - Matrices ✔️
 
 ### __MODULE 3__ Trees
-- Tree Depth-first Search (DFS) ⏳
-- Tree Breadth-first Search (BFS)
+- Tree Depth-first Search (DFS) ✔️
+- Tree Breadth-first Search (BFS) ⏳
 
 ### __MODULE 4__ Heaps, Hashing and Tracking
 - Hash Maps
@@ -39,3 +39,5 @@
 ### __MODULE 8__ Elegant by Design
 - Sliding Window
 - Union Find
+
+![document last modified](https://img.shields.io/badge/last_modified-2024--07--15-blue)
