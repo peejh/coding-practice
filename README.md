@@ -17,9 +17,10 @@ This repo will mainly be for my own reference as I try to become more proficient
 - Leetcode solutions will be uploaded next. I will try to sift through them first as they were written at a time when I didn't bother adding solution notes and comments.
 - I attempt at least one coding problem per day but the new solutions will be uploaded in chunks when I clear a section of them in the coding platforms, or when I finish a substantial amount.
 
-## ⚙️ Language(s) used
+## ⚙️ Languages used
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
